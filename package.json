@@ -1,0 +1,22 @@
+{
+  "name": "hono-duckdb",
+  "version": "1.0.0",
+  "module": "src/index.ts",
+  "type": "module",
+  "author": {
+    "name": "Jan Henning",
+    "url": "https://github.com/jaaneh"
+  },
+  "scripts": {
+    "dev": "bun --watch src/index.ts",
+    "start": "bun run src/index.ts"
+  },
+  "dependencies": {
+    "duckdb": "^1.0.0",
+    "hono": "^4.5.11"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.8",
+    "typescript": "^5.5.4"
+  }
+}
