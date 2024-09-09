@@ -22,3 +22,7 @@ bun start
 - GET /sales: List all sales transactions
 - GET /sales/daily: Get daily sales data
 - GET /sales/summary: Get sales summary by category
+
+## Deploy
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/i3i9G7?referralCode=jan)
